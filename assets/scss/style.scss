@@ -1,0 +1,7 @@
+@import 'partials/clear', 'components/socialAside', 'components/mainContent', 'components/agents', 'components/mouse';
+
+main{
+    width: 100vw;
+    height: 100vh;
+    @include d-flex(flex-start);
+}

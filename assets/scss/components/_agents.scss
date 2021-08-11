@@ -1,0 +1,15 @@
+aside.agents{
+    flex: 1 0 0;
+    padding-bottom: 1em;
+    writing-mode: vertical-lr;
+    @include d-flex();
+
+    div.agent{
+        margin: 1em 0;;
+        color: white;
+
+        h4{
+            font-size: 18px;
+        }
+    }
+}

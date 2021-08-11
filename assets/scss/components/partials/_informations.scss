@@ -1,0 +1,19 @@
+div.informations{
+    @include d-flex();
+
+    .blank{
+        flex: 2 0 0;
+    }
+
+    > div:not(.blank){
+        flex: 10 0 0;
+        @include d-flex(flex-start);
+
+        p.genres{
+
+            span:not(:first-child){
+                margin-left: 0.5em;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, a, li, input, button{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: nunito;
+    color: rgb(189, 189, 189);
+}
+
+h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    width: 150px;
+    font-weight: 900;
+    color: white;
+}
+
+.separator{
+    background-color: #e24516;
+    margin: 2px 0;
+}
+
+.separator.horizontal{
+    width: 30px;
+    height: 2px;
+}
+
+.separator.vertical{
+    width: 2px;
+    height: 30px;
+    margin: 0 2em;
+}
+
+::selection{
+    background-color: #e24516;
+    color: white;
+}

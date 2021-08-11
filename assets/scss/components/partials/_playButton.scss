@@ -1,0 +1,8 @@
+div.play{
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(to left top, rgb(197, 24, 25), rgb(242, 53, 54));
+    box-shadow: 5px 5px 50px 5px #e24516;
+    border-radius: 100%;
+    @include d-flex();
+}
